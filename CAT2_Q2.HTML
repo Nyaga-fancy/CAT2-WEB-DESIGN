@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <style>
+      body{
+    margin:10px;
+  }
+    .navbar ul{
+      list-style-type:none;
+      background-color:#666;
+      padding:5px;
+      margin:10px;
+      overflow:hidden;
+      border: 7px solid #634D55;
+    }
+    .navbar a{
+      color:#000000;
+      text-decoration:none;
+      padding:25px;
+      display:block;
+      text-align:left;
+      font-size: 32px;
+    }
+     .navbar a:hover{
+      background-color :white;
+    }
+    .navbar li{
+      float:right;
+    }
+    form{
+      font-size :40px;
+      margin: 3px;
+      padding :5px;
+      color:black;
+    }
+    form a:{
+      padding :5px;
+      color:#B81554;
+      font-size:50px;
+    }
+    form input{
+      font-size:40px;
+      background-color:#AF1385;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="active">Home</a></li>
+        <li><a href="active">About</a></li>
+        <li><a href="active">Register</a></li>
+        <li><a href="active">Login</a></li>
+      </ul>
+    </nav>
+  </body>
+  <form action="Registration">
+    <table>
+      <h3>Sign up</h3>
+      <tr>
+        <td>Username:</td>
+        <td><input type="Username"placeholder="@abcdef" minlength="6"maxlength="10"></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+       <td><input type="Password"placeholder="******"minlength="6"maxlength="9"></td>
+       </tr>
+       <tr>
+      <td>
+         <input type="Submit">
+         <input type="Reset">
+       </td>
+      </tr>
+      <tr>
+        <td ID="Name">Don't have an account? <a href="Register">Sign in</a></td>
+      </tr>
+    </table>
+  </form>
+</html>
